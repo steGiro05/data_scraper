@@ -1,4 +1,104 @@
 Name,Points,Season
+Paris Saint-Germain,83,2014-2015
+Olympique Lione,75,2014-2015
+Monaco,71,2014-2015
+Olympique Marsiglia,69,2014-2015
+Saint-Étienne,69,2014-2015
+Bordeaux,63,2014-2015
+Montpellier,56,2014-2015
+Lilla,56,2014-2015
+Rennes,50,2014-2015
+Guingamp,49,2014-2015
+Nizza,48,2014-2015
+Bastia,47,2014-2015
+Caen,46,2014-2015
+Nantes,45,2014-2015
+Stade Reims,44,2014-2015
+Lorient,43,2014-2015
+Tolosa,42,2014-2015
+Évian TG,37,2014-2015
+Metz,30,2014-2015
+Lens,29,2014-2015
+Paris Saint-Germain,96,2015-2016
+Olympique Lione,65,2015-2016
+Monaco,65,2015-2016
+Nizza,63,2015-2016
+Lilla,60,2015-2016
+Saint-Étienne,58,2015-2016
+Caen,54,2015-2016
+Rennes,52,2015-2016
+Angers,50,2015-2016
+Bastia,50,2015-2016
+Bordeaux,50,2015-2016
+Montpellier,49,2015-2016
+Olympique Marsiglia,48,2015-2016
+Nantes,48,2015-2016
+Lorient,46,2015-2016
+Guingamp,44,2015-2016
+Tolosa,40,2015-2016
+Stade Reims,39,2015-2016
+Gazélec Ajaccio,37,2015-2016
+Troyes,18,2015-2016
+Monaco,95,2016-2017
+Paris Saint-Germain,87,2016-2017
+Nizza,78,2016-2017
+Olympique Lione,67,2016-2017
+Olympique Marsiglia,62,2016-2017
+Bordeaux,59,2016-2017
+Nantes,51,2016-2017
+Saint-Étienne,50,2016-2017
+Rennes,50,2016-2017
+Guingamp,50,2016-2017
+Lilla,46,2016-2017
+Angers,46,2016-2017
+Tolosa,44,2016-2017
+Metz,43,2016-2017
+Montpellier,39,2016-2017
+Digione,37,2016-2017
+Caen,37,2016-2017
+Lorient,36,2016-2017
+Nancy,35,2016-2017
+Bastia,34,2016-2017
+Paris Saint-Germain,93,2017-2018
+Monaco,80,2017-2018
+Olympique Lione,78,2017-2018
+Olympique Marsiglia,77,2017-2018
+Rennes,58,2017-2018
+Bordeaux,55,2017-2018
+Saint-Étienne,55,2017-2018
+Nizza,54,2017-2018
+Nantes,52,2017-2018
+Montpellier,51,2017-2018
+Digione,48,2017-2018
+Guingamp,47,2017-2018
+Amiens,45,2017-2018
+Angers,41,2017-2018
+Strasburgo,38,2017-2018
+Caen,38,2017-2018
+Lilla,38,2017-2018
+Tolosa,37,2017-2018
+Troyes,33,2017-2018
+Metz,26,2017-2018
+Paris Saint-Germain,91,2018-2019
+Lilla,75,2018-2019
+Olympique Lione,72,2018-2019
+Saint-Étienne,66,2018-2019
+Olympique Marsiglia,61,2018-2019
+Montpellier,59,2018-2019
+Nizza,56,2018-2019
+Stade Reims,55,2018-2019
+Nîmes,53,2018-2019
+Rennes,52,2018-2019
+Strasburgo,49,2018-2019
+Nantes,48,2018-2019
+Angers,46,2018-2019
+Bordeaux,41,2018-2019
+Amiens,38,2018-2019
+Tolosa,38,2018-2019
+Monaco,36,2018-2019
+Digione,34,2018-2019
+Caen,33,2018-2019
+Guingamp,27,2018-2019
 Paris Saint-Germain,"2,51",2019-2020
 Olympique Marsiglia,2,2019-2020
 Rennes,"1,78",2019-2020
@@ -43,10 +143,10 @@ Paris Saint-Germain,86,2021-2022
 Olympique Marsiglia,71,2021-2022
 Monaco,69,2021-2022
 Rennes,66,2021-2022
-Nizza(-1),66,2021-2022
+Nizza,66,2021-2022
 Strasburgo,63,2021-2022
 Lens,62,2021-2022
-Olympique Lione(-1),61,2021-2022
+Olympique Lione,61,2021-2022
 Nantes,55,2021-2022
 Lilla,55,2021-2022
 Brest,48,2021-2022
@@ -90,7 +190,7 @@ Olympique Marsiglia,50,2023-2024
 Stade Reims,47,2023-2024
 Rennes,46,2023-2024
 Tolosa,43,2023-2024
-Montpellier(-1),41,2023-2024
+Montpellier,41,2023-2024
 Strasburgo,39,2023-2024
 Nantes,33,2023-2024
 Le Havre,32,2023-2024

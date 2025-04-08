@@ -4,6 +4,11 @@ import pandas as pd
 
 
 seasons=[
+    "2014-2015",
+    "2015-2016",
+    "2016-2017",
+    "2017-2018",
+    "2018-2019",
     "2019-2020",
     "2020-2021",
     "2021-2022",
@@ -62,7 +67,7 @@ def extract_columns(table, col_indexes=[2, 3]):
 
 
 # === Configurable variables ===
-""" for league in leagues:
+for league in leagues:
 
 
     final_results = []
@@ -84,7 +89,7 @@ def extract_columns(table, col_indexes=[2, 3]):
 
     results_df = pd.DataFrame(final_results)
 
-    results_df.to_csv(f'{league}.csv', index=False) """
+    results_df.to_csv(f'{league}.csv', index=False)
     
 #liga
     
