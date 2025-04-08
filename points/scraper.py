@@ -20,7 +20,7 @@ leagues= [
     "Premier_League",
     "Bundesliga",
     "Ligue_1",
-    ]
+]
 
 def search_for_index(table_index, soup):
     # Find all tables
