@@ -12,11 +12,11 @@ def query_csv(input_csv, output_csv, i):
     
     cursor = conn.cursor()
     
-    cursor.execute(f"SELECT SUM(Salary) FROM data WHERE Education_Level= {i}")
+    cursor.execute(f"SELECT SUM(Salary) FROM data")
     res= cursor.fetchone()
     sum=res[0]
     
-    cursor.execute(f'SELECT Salary FROM data WHERE Education_Level= {i} order by Salary')
+    cursor.execute(f'SELECT Salary FROM data')
     r = cursor.fetchall()
     percentage=0
     for row in r:
@@ -30,8 +30,7 @@ def query_csv(input_csv, output_csv, i):
     conn.close()
 
 
-for i in range (1,4):
-    input_csv = f'Salary.csv'  # Replace with your input CSV path
-    output_csv = f'education_level_{i}.csv'  # Replace with your output CSV path
+for i in range (1,5):
+    input_csv = f'{i}_fourth.csv'  # Replace with your input CSV path
 
-    query_csv(input_csv, output_csv, i)
+    query_csv(input_csv, input_csv, i)

@@ -2,12 +2,6 @@ import sqlite3
 import pandas as pd 
 import re
 
-def gini_index(sorted_salaries):
-    
-    return gini
-
-
-
 result_list=[]
 quartiles=[
     0,
@@ -26,16 +20,14 @@ for i in range (1,5):
 
     cursor = conn.cursor()
 
-    cursor.execute("SELECT Salary FROM my_table")
-    res= cursor.fetchall()
-    for row in res:
-        salaries.append(int(row[0]))
+    cursor.execute("SELECT AVG(Salary) FROM my_table")
+    res= cursor.fetchone()
+    avg_salary = res[0]
     conn.close()
     
     
-    gini = gini_index(salaries)
-    result_list.append({"Years of experience": f'{quartiles[i-1]} - {quartiles[i]}', "Gini Index": gini})
+    result_list.append({"Years of experience": f'{quartiles[i-1]} - {quartiles[i]}', "Average": avg_salary})
 
 results_df = pd.DataFrame(result_list)
 
-results_df.to_csv('gini_index.csv', index=False)
+results_df.to_csv('avg.csv', index=False)

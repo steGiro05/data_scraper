@@ -24,7 +24,7 @@ def gini_index(sorted_salaries):
 result_list=[]
 for i in range (1,4):   
     salaries=[] 
-    df = pd.read_csv(f'education_level_{i}.csv')
+    df = pd.read_csv(f'education_level_{i}.csv')    
 
     conn = sqlite3.connect(':memory:')  # In-memory database
 
