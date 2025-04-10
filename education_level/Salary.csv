@@ -1,4 +1,4 @@
-Age,Gender,Education_Level,Job Title,Years of Experience,Salary,Country,Race,Senior
+Age,Gender,Education_Level,Job Title,Years_of_experience,Salary,Country,Race,Senior
 32.0,Male,1,Software Engineer,5.0,90000.0,UK,White,0
 28.0,Female,2,Data Analyst,3.0,65000.0,USA,Hispanic,0
 45.0,Male,3,Manager,15.0,150000.0,Canada,White,1
